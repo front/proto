@@ -2,20 +2,20 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title> {% if page.title %} {{ page.title }} | {% endif %}</title>
+    <title> {% if page.title %} {{ page.title }} | {% endif %} Prototype</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
 
     <!-- Le styles -->
-    <link href="/css/bootstrap.css" rel="stylesheet">
+    <link href="./css/bootstrap.css" rel="stylesheet">
     <style type="text/css">
       body {
         padding-top: 60px;
         padding-bottom: 40px;
       }
     </style>
-    <link href="/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="./css/bootstrap-responsive.css" rel="stylesheet">
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -39,12 +39,13 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <a class="brand" href="/">Prototype</a>
+          <a class="brand" href="index.html">Prototype</a>
           <div class="nav-collapse">
             <ul class="nav">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#contact">Contact</a></li>
+              <li><a href="2.html">Oh</a></li>
+              <li><a href="3.html">Yeah</a></li>
+              <li><a href="4.html">Man</a></li>
+              <li><a href="5.html">Bootstrap</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
@@ -52,13 +53,34 @@
     </div>
 
     <div class="container">
-      <div class="well">
-        Yeah.
-      </div>
       
       {{ content }}
 
       <hr>
+
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="span3">
+          <h2>Kategorier</h2>
+           <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn" href="#">View details &raquo;</a></p>
+        </div>
+        <div class="span3">
+          <h2>Kampanjer</h2>
+           <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn" href="#">View details &raquo;</a></p>
+       </div>
+        <div class="span3">
+          <h2>Kundeservice</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p><a class="btn" href="#">View details &raquo;</a></p>
+        </div>
+         <div class="span3">
+          <h2>Om oss</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p><a class="btn" href="#">View details &raquo;</a></p>
+        </div>
+      </div>
 
       <footer>
         <p>&copy; Front 2012</p>
@@ -69,19 +91,6 @@
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="./js/jquery.js"></script>
-    <script src="./js/bootstrap-transition.js"></script>
-    <script src="./js/bootstrap-alert.js"></script>
-    <script src="./js/bootstrap-modal.js"></script>
-    <script src="./js/bootstrap-dropdown.js"></script>
-    <script src="./js/bootstrap-scrollspy.js"></script>
-    <script src="./js/bootstrap-tab.js"></script>
-    <script src="./js/bootstrap-tooltip.js"></script>
-    <script src="./js/bootstrap-popover.js"></script>
-    <script src="./js/bootstrap-button.js"></script>
-    <script src="./js/bootstrap-collapse.js"></script>
-    <script src="./js/bootstrap-carousel.js"></script>
-    <script src="./js/bootstrap-typeahead.js"></script>
-
+    <script src="./js/bootstrap.min.js"></script>
   </body>
 </html>
