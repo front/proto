@@ -7,7 +7,7 @@
 Clone this repo: `$ git clone git@github.com:front/proto.git`
 
 ## Do stuff
-1. Go to your project in the Terminal and start Jekyll `$ jekyll --server --auto`
+1. Go to your project in the Terminal and start Jekyll `$ jekyll`
 2. Duplicate a post in the /_posts/ folder, and give it a name according to the pattern: [date]-[url].html
 3. In Your Favorite Browser, go to localhost:4000/
 4. Yay!
