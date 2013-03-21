@@ -10,7 +10,7 @@ Clone this repo: `$ git clone git@github.com:front/proto.git`
 1. Go to your project in the Terminal and start Jekyll `$ jekyll`
 2. Duplicate a post in the /_posts/ folder, and give it a name according to the pattern: [date]-[url].html
 3. In Your Favorite Browser, go to localhost:4000/
-4. Yay!
+4. To publish on front.github.com/[repo-name] just push to gh-pages branch
 
 ## Misc
 - To edit the master page, hack away at /_layout/default.html
